@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>table tag</title>
+        <style>
+            table{
+                boarder-collaps:collaps;
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <table border="1px">
+                <tr>
+                    <th style="background-color: blanchedalmond;" colspan="2">&lt;header&gt;
+
+                    </th>
+                </tr>
+                <tr>
+                    <th style="background-color: aquamarine;" colspan="2">&lt;nav&gt;</th>
+                </tr>
+                <tr>
+                <th style="column-width: 200px;background-color: lightgoldenrodyellow;">&lt;section&gt;</th>
+                <th style="column-width: 200px;border-width: 3px; background-color: lightgrey;" rowspan="3">&lt;aside&gt;</th>
+                </tr>
+                <tr>
+                    <th style="background-color: blanchedalmond;">heading</th>
+                </tr>
+                <tr>
+                <th style="background-color: lightcyan; height: 50px;">&lt;article&gt;</th>
+                </tr>
+                <tr>
+                    <th style="background-color: lightsalmon; border-width: 3px;" colspan="2">&lt;footer&gt;</th>
+                </tr>
+            </table>
+        </center>
+    </body>
+
+            </table>
+        </center>
+    </body>
+</html>
