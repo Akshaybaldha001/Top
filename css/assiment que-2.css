@@ -1,0 +1,178 @@
+.akshay1{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid red; */
+    
+}
+.akshay2{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid  black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.akshay3{
+    height: 300px;
+    width: 300px;
+    border: 1px solid  white;
+    box-shadow: 0 0 5px;
+}
+.akshay4{
+    height: 300px;
+    width: 300px;
+    border: 1px solid  white;
+    box-shadow: 0 0 5px;
+}
+.akshay5{
+    height: 300px;
+    width: 300px;
+    border: 1px solid  white;
+    box-shadow: 0 0 5px;
+}
+.akshay3 .akshay6{
+   height: 120px;
+   width: 300px;
+   border: 1px solid black;
+   background: rgba(0, 0, 0, 0.7);
+   
+}
+.akshay6 h2 {
+    margin-left: 80px;
+     padding-top: 15px;
+     color: white;
+}
+.akshay3 .akshay7{
+    height: 180px;
+    width: 300px;
+    border: 1px solid black;
+    
+ }
+ .akshay7 p{
+    text-align: center;
+ }
+ .akshay7 button{
+    
+    background-color: white;
+ }
+ .akshay4 .akshay8{
+    height: 120px;
+    width: 300px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.7);
+    
+ }
+ .akshay8 h2 {
+    margin-left: 80px;
+     padding-top: 15px;
+     color: white;
+}
+.akshay9 button{
+    
+    background-color: white;
+ }
+ .akshay9 p{
+    text-align: center;
+ }
+ .akshay5 .akshay10{
+    height: 120px;
+    width: 300px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.7);
+    
+ }
+ .akshay10 h2 {
+    margin-left: 80px;
+     padding-top: 15px;
+     color: white;
+}
+.akshay11 button{
+    
+    background-color: white;
+ }
+ .akshay11 p{
+    text-align: center;
+ }
+ .akki1{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .akki2{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px;
+ }
+ .akki3{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px;
+ }
+ .akki4{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px;
+ }
+ .akki2 .akki5{
+    height: 120px;
+    width: 300px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.7);
+ } 
+ .akki5 h2 {
+    margin-left: 80px;
+     padding-top: 15px;
+     color: white;
+}
+.akki6 p{
+    text-align: center;
+ }
+ .akki6 button{
+    
+    background-color: white;
+ }
+ .akki3 .akki7{
+    height: 120px;
+    width: 300px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.7);
+ } 
+ .akki7 h2 {
+    margin-left: 80px;
+     padding-top: 15px;
+     color: white;
+}
+.akki8 button{
+    
+    background-color: white;
+ }
+ .akki8 p{
+    text-align: center;
+ }
+ .akki4 .akki9{
+    height: 120px;
+    width: 300px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.7);
+ }
+ .akki9 h2 {
+    margin-left: 80px;
+     padding-top: 15px;
+     color: white;
+}
+.akki10 button{
+    
+    background-color: white;
+ }
+ .akki10 p{
+    text-align: center;
+ }
+ 
+   
+ 
+ 
