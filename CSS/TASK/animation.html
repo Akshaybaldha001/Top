@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   .akshay{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: auto;
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    
+
+   }
+   .akki1{
+    height: 15px;
+    width: 10px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: akshay;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;  
+    border: 2px solid white;
+   }
+        @keyframes akshay {
+            0%{
+                transform: scale(0);
+            }
+            25%{
+                transform: scale(0.75);
+            }
+            75%{
+                transform: scale(1.25);
+            }
+            100%{
+                transform: scale(1.5);
+            }
+        }
+       .i-2,.i-3,.i-4,.i-5{
+        animation-delay: 0.2s;
+       }
+       .i-3{
+        animation-delay: 0.4s;
+       }
+       .i-4{
+        animation-delay: 0.6s;
+       }
+       .i-5{
+        animation-delay: 0.8s;
+       }
+    </style>
+</head>
+<body>
+    <div class="akshay">
+        <div class="akki1 i-1"></div>
+        <div class="akki1 i-2"></div>
+        <div class="akki1 i-3"></div>
+        <div class="akki1 i-4"></div>
+        <div class="akki1 i-5"></div>
+
+    </div>
+</body>
+</html>
