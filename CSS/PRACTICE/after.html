@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li::after{
+            content: "";
+            border: 1px solid red;
+            position: absolute;
+            top: 15px;
+            left: 0;
+            width: 0;
+            text-decoration: none;
+            transition: 1s;
+
+        }
+        li{
+            position: relative;
+            /* transition: 1s; */
+            
+        }
+        li:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Order</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Feed back</li>
+    </ul>
+</body>
+</html>

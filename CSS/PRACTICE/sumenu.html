@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Basic styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Dropdown menu styles */
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 10px;
+}
+
+.submenu li {
+  display: block;
+  margin: 5px 0;
+}
+
+.submenu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  nav ul.menu {
+    display: none;
+  }
+  
+  nav ul.menu li {
+    display: block;
+  }
+  
+  nav ul.menu li.dropdown {
+    position: relative;
+  }
+  
+  nav ul.menu li.dropdown .submenu {
+    position: static;
+    display: block;
+    background-color: #333;
+    padding: 10px;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Dropdown</a>
+          <ul class="submenu">
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 2</a></li>
+            <li><a href="#">Submenu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
