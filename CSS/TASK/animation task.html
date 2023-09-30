@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation task</title>
+    <style>
+        .top{
+            height: 250px;
+            width: 350px;
+            position: relative;
+            border: 1px solid red;
+            margin: 50PX auto;
+
+        }
+        .bottom{
+            height: 100%;
+            width: 100%;
+
+        }
+        .hope{
+            position: absolute;
+            top: -100%;
+            left: 0;
+            background: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            text-align: center;
+            color: white;
+            height: auto;
+            
+        }
+        .top:hover .bottom {
+            box-shadow: 0 0 7px gray;
+            transition: 0.3s;
+            transform:rotatey(360deg)
+        
+        }
+        .top{
+            
+            /* height: 60px; */
+            /* width: 450px; */
+            position: absolute;
+            /* top:-100%; */
+        
+            /* opacity: 0%; */
+            overflow: hidden;
+        }
+        .top:hover .hope{
+            transform: translatey(2500%);
+            z-index: 1;
+            /* top: 0; */
+            transition: 1s;       
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img class="bottom" src="https://media.istockphoto.com/id/868718238/photo/man-at-the-shopping.webp?s=1024x1024&w=is&k=20&c=-o0TKHxatwL2DaEnTBrtCsVaa9_Uq51MBbK6aofG2Hg=">
+        <div class="hope">
+          click
+        </div>
+    </div>
+</body>
+</html>
