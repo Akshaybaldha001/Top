@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.open .fa-bars{
+    display: none;
+}
+.menu{
+    margin-top: 20px;
+}
+
+/* Style the navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    height: 50px;
+}
+
+.logo i{
+    padding: 20px 20px;
+}
+
+
+/* Style the menu items */
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Style the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    /* background-color: red; */
+    display: block;
+    border: 1px solid red;
+    
+}
+
+/* Style dropdown links */
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    color: red;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #444;
+}
+.serv{
+    position: relative;
+   
+}
+.ssm{
+    background-color: #333;
+    position: absolute;
+    top: -2%;
+    right: -59%;
+    display: none;
+    margin: 0;
+    padding: 0 !important;
+    border: 1px solid red;
+}
+.serv:hover .ssm{
+    display: block;
+    background: #333;
+    border: 1px solid red;
+    color: red;
+}
+.ssm p:hover{
+    background: #444;
+}
+.ssm p{
+    /* margin-top: -22px; */
+    /* background-color: red; */
+    padding: 15px 10px;
+    margin: 0%;
+}
+.ssm .s1{
+    padding: 0 !important;
+}
+.menu .dropdown span{
+    color: red;
+}
+.banner{
+    height: 92vh;
+    width: 100%;
+    position: relative;
+    
+    
+}
+.banner img{
+    overflow: hidden;
+}
+.summer{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.summer p{
+    font-size: xx-large;
+    font-weight: bolder;
+    /* border: 3px solid white; */
+    background: transparent;
+    color: white;
+    
+}
+.summer button{
+    border-radius: 50%;
+    background: white;
+    color: black;
+    padding: 20px;
+}
+.summer{
+    height: 300px;
+    width: 500px;
+}
+.summer button:hover{
+    scale: 0.9;
+    background: transparent;
+    color: black;
+}
