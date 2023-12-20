@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUE-18</title>
+    <style>
+        .aki{
+            height: 200px;
+            width: 500px;
+            border: 3px solid black;
+            margin: auto;
+            background: palevioletred;
+        }
+        .aki form{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1><b>QUE:18</b>Create password field with show hide functionalities ?</h1> 
+    <hr>
+    <div class="aki">
+    <form>
+        <label for="">ENTER THE PASSWORD:-</label>
+        <input type="text" name="pass" id="password"><br><br>
+      SHOW  PASSWORD:  <input type="checkbox" id="chek">
+    </form>
+</div>
+    <script>
+     let pas=document.getElementById('password');
+     let chek=document.getElementById('chek');
+     chek.addEventListener("click",function(){
+        if(pas.type=="text"){
+            
+           pas.type="password";
+        }
+        else{
+            pas.type="text";
+        }
+     })
+    </script>
+</body>
+</html>
