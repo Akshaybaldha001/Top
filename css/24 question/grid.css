@@ -1,0 +1,121 @@
+.akii1{
+    height: auto;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-area: 1/1/2/11;
+    width: 100%;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.box {
+    margin: auto;
+    grid-area: 1/1/2/11;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 28vh 28vh 28vh 10vh;
+    gap: 10px 10px;
+}
+.box-2 {
+    background-color: black;
+    grid-area: 1/11/3/13;
+    color: #fff;
+    text-align: right;
+    padding: 0 5px;
+}
+.menu{
+    height: 800px;
+    width: 20%;
+    background: black;
+    color: white;
+}
+#akshay1{
+    grid-column-start: 1;
+    grid-column-end: 8;  
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#akshay2{
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+#akshay3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#akshay4{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#akshay5{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#akshay6{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#akshay7{
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#akshay8{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#akshay9{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+#akshay10{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.sht{
+    margin-left: 40%;
+    padding: 8px;
+    padding-bottom: 20px;
+    /* font-style: italic; */
+    font-weight: 900;
+}
+.sub{
+    margin-left: 44%;  
+      font-style: italic;
+}
+.sub li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.sub i{
+    padding: 5px;
+    margin-left: 1px;
+}
