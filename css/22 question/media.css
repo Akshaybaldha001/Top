@@ -1,0 +1,237 @@
+@media(max-width: 500px) {
+
+    /* ---------------------------------------------Header------------------------------------------------ */
+    .log {
+        display: none;
+    }
+    .open {
+        display: none;
+        position: absolute;
+        top: 33px;
+        left: -8%;
+        width: 200%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub{
+        border-left: 5px solid transparent;
+        border-bottom: 5px solid  #3B7FF6;
+    }
+    
+
+    .menu img {
+        display: block;
+        height: 20px;
+        width: 20px;
+        margin-top: 15px;
+    }
+
+    .menu ul li {
+        display: block;
+        padding: 10px;
+        background-color: grey;
+        position: relative;
+    }
+
+    .open {
+        display: none;
+        position: absolute;
+        top: 42px;
+        left: 37%;
+    }
+
+    .menu:hover .open {
+        display: block;
+    }
+
+    .manage {
+        /* text-align: justify; */
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .info {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    /* ------------------------------------------------------section 1----------------------------------- */
+    .img-1 {
+        width: 100%;
+        height: 70vh;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    /* ---------------------------------------------------------section 2------------------------------------ */
+    .sec-2 {
+        flex-direction: column;
+        height: auto;
+    }
+  
+
+    .trusted {
+        text-align: center;
+    }
+
+    .sec-2 .box {
+        height: auto;
+        width: 100%;
+        /* border: 1px solid; */
+        padding: 25px;
+        position: relative;
+    }
+
+    .akshay div {
+        width: 70%;
+    }
+
+    .sec-3 {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-3 .layout {
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .sec-3 .layout .logoes {
+        position: absolute;
+        top: 15px;
+        left: 48%;
+    }
+
+    .but {
+        margin: auto;
+    }
+    .work {
+        font-size: 32px;
+        margin-top: 0%;
+        font-weight: 600;
+    }
+    .work-info {
+        width: 100%;
+        text-align: justify;
+    }
+
+    /* -----------------------------------------------------------sec 4-------------------------------- */
+    .sec-4 {
+        margin-top: 0px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+        padding-top: 25px;
+    }
+    .sec-4 .box b {
+        display: none !important;
+    }
+    
+
+    .box {
+        width: 60%;
+    }
+    .b{
+        display: none;
+    }
+
+    .i {
+        text-align: center !important;
+    }
+
+
+    /* ---------------------------------------------------------sec 5------------------------------------------- */
+    .sec-5 {
+        padding: 0%;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sec-5 p {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .sec-5 .part {
+        text-align: center;
+        width: 100%;
+    }
+
+    .sec-5 .p-2 {
+        width: 250px;
+    }
+
+    /* /* -----------------------------------------------footer-------------------------------------  */
+footer .lists .sec ul li{
+        display: none;
+    }
+
+    footer .lists {
+        flex-wrap: wrap;
+    }
+
+    footer .lists .s1{
+        margin-top: 40px;
+    }
+
+    footer .sec {
+        height: auto;
+        width: 100%;
+    }
+    
+    footer .sec ul{
+        margin: 20px 7%;
+        font-size: 20px;
+        font-weight: 500;
+    } 
+
+  
+  footer .s1 ul svg{
+        margin-left: 60%;
+    }
+
+    footer .s2 ul svg{
+        margin-left: 63.5%;
+    }
+
+    footer .s3 ul svg{
+        margin-left: 70%;
+    }
+
+    footer .lists .sec ul:hover li{
+        display: block;
+    }
+
+    footer .lists .sec li{
+        margin: 20px;
+    }
+
+    footer .lists .s4{
+        margin: 20px 15%;
+    }
+    
+    footer .lists .s4 h3{
+        margin: 0 auto 40px auto;
+        letter-spacing: 1px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .copyright .img{
+        display: none !important;
+        
+    }
+}
