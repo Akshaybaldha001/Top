@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <style>
+  body{
+    background-color: lightgray;
+  }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+    }
+    
+    input {
+      padding: 5px;
+      width: 200px;
+    }
+    .akshay{
+        background-color: green;
+        color: white;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+  <form id="signupForm" onsubmit="validateForm(event)">
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName">
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone">
+    </div>
+    <div class="form-group">
+        <lable for="gen">Gender:</lable>
+          Male:<input type="radio" name="gen">
+          Female:<input type="radio" name="gen">
+          OTHER:<input type="radio" name="gen">
+      </div>
+      <div class="form-group">
+        <LAbel for="DOB "> Date of birth:</LAbel>
+        <input type="date"> 
+    </div>
+    <div class="form-group">
+        <label for="add"> Address:</label>
+        <textarea id="add"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="city">city:</label>
+        <input type="city" id="city">
+    </div>
+    <div class="form-group">
+        <label for="areapin">Areapin:</label>
+        <input type="areapin" id="areapin" >
+    </div>
+    <div class="form-group">
+        <label for="state">state:</label>
+        <input type="state" id="state">
+    </div>
+    <div class="form-group">
+        <label for="Qulification">  Qulification:-</label>
+        <select id="Qulification">
+            <option value="B.E.">B.E. </option>
+            <option value="BCA"> BCA</option>
+            <option value="BBA"> BBA</option>
+            <option value="MBA"> MBA</option>
+        </select>
+    </div>
+    <button type="submit" class="akshay">Submit</button>
+  </form>
+
+  
+  <script>
+    function validateForm(event) {
+  event.preventDefault();
+  
+  
+  const firstName = document.getElementById('firstName').value;
+  const lastName = document.getElementById('lastName').value;
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+  const phone = document.getElementById('phone').value;
+
+  
+  if (firstName === '') {
+    alert('Please enter First Name');
+  } else if (lastName === '') {
+    alert('Please enter Last Name');
+  } else if (email === '') {
+    alert('Please enter Email');
+  } else if (password === '') {
+    alert('Please enter Password');
+  } else if (phone === '') {
+    alert('Please enter Phone Number');
+  } else {
+    
+    alert('Form submitted!');
+    
+  }
+}
+
+  </script>
+</body>
+</html>
