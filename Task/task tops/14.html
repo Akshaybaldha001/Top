@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUE-19</title>
+</head>
+<body>
+
+    
+    <div class="box">
+        <h2>Math Operation</h2>
+        <p class="math-p">Enter 1st Number :</p>
+        <input type="text" id="f-number"> <br>
+
+        <p class="math-p p-2">Enter 2nd Number :</p>
+        <input type="text" id="s-number">
+
+        <div class="main-btn">
+          
+           <input type="button" value="*" class="btn-3 math-btn" id="b" onclick="mul()"> <br>
+           <input type="button" value="/" class="btn-4 math-btn" id="b" onclick="div()">
+         
+        </div>
+        <p id="ans"></p>
+        <script>
+               
+        
+
+var f=parseInt(document.getElementById("f-number").value);
+var s=parseInt(document.getElementById("s-number").value);
+
+
+
+//  multiplication
+
+function mul()
+{
+ var l=f*s;  
+  var c=document.getElementById("ans").innerHTML+="ANSWER IS:"+ l + "<br> <br>";
+}
+
+//  division
+
+
+function div()
+{
+ var l=f/s;  
+  var c=document.getElementById("ans").innerHTML+="ANSWER IS:"+ l + "<br> <br>";
+}
+
+//  modulo
+
+
+
+</script>
+
+
+        
+</body>
+</html>
